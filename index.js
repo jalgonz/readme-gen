@@ -1,7 +1,7 @@
 // Packages needed for this application
 const fs = require("fs"); 
 const inquirer = require("inquirer"); 
-const generateMarkdown = require("./utils/generateMarkdown");
+const generateMarkdown = require('./utils/generateMarkdown');
 
 // Array of questions for user input
 const questions = [
@@ -43,7 +43,7 @@ const questions = [
                 'Apache 2.0 License', 
                 'BSD 2-clause License',
                 'BSD 3-clause License',
-                'GLP 3.0',
+                'GPL License 3.0',
                 'MIT License',
                 'Mozilla Public License 2.0',
                 'None'  
@@ -63,7 +63,8 @@ const questions = [
 
 // Function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, generateMarkdown.generateMarkdown(data), (err) => {
+
+    fs.writeFile(fileName, generateMarkdown(data), (err) => {
         err ? console.error(err) : console.log("Markdown generated.")
     })
 }
