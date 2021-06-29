@@ -27,7 +27,7 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'Provide contrubtion guideline instructions.',
+        message: 'Provide contribution guideline instructions.',
         name: 'contributions',
     },
     {
