@@ -1,8 +1,8 @@
-# Sample Readme
+# Sample Project
   ![](https://img.shields.io/badge/license-MIT%20License-blue?style=flat-square)
 
   ## Description
-  This is a sample explantion for the readme.
+  Sample description
   <p>&nbsp</p>
 
   ## Table of Contents
@@ -21,11 +21,11 @@
   <p>&nbsp</p>
 
   ## Usage
-  Instructions for the project go here.
+  sample instructions
   <p>&nbsp</p>
 
   ## Contributing
-  Contribution guideline instruction guidelines go here.
+  sample instructions
   <p>&nbsp</p>
   
   
